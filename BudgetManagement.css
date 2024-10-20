@@ -1,0 +1,185 @@
+.budget-management {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1890ff;
+  }
+  
+  .time {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .budget-overview, .spending-trend, .budget-stats {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .budget-card {
+    background-color: #1890ff;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .budget-amount {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .spending-status {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .alert-box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .alert-box.low {
+    background-color: #e6f7ff;
+    color: #1890ff;
+  }
+  
+  .alert-box.medium {
+    background-color: #fff7e6;
+    color: #fa8c16;
+  }
+  
+  .alert-box.high {
+    background-color: #fff1f0;
+    color: #f5222d;
+  }
+  
+  .alert-box p {
+    margin-left: 10px;
+  }
+  
+  .category-selector {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .category-selector button {
+    background: none;
+    border: 1px solid #d9d9d9;
+    color: #666;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+  
+  .category-selector button.active {
+    background-color: #1890ff;
+    color: white;
+    border-color: #1890ff;
+  }
+  
+  .budget-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  
+  .stat-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .stat-card h4 {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .stat-card p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: none;
+    border: none;
+    color: #666;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  footer button.active {
+    background-color: #e6f7ff;
+    color: #1890ff;
+  }
+  
+  /* Recharts customization */
+  .recharts-default-tooltip {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    border: none !important;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recharts-tooltip-label {
+    color: #333 !important;
+  }
+  
+  .recharts-tooltip-item {
+    color: #666 !important;
+  }

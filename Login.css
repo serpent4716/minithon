@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    background-color: #f7f8fc;
+}
+
+.login-container {
+    display: flex;
+    height: 100vh;
+}
+
+.login-left, .login-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-left {
+    background-color: #fff;
+}
+
+.login-box {
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.social-btn {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #333;
+}
+
+.social-btn img {
+    width: 20px;
+    margin-right: 10px;
+
+}
+.social-btn i {
+    margin-right: 8px; /* Adjust this value as needed */
+}
+
+.google {
+    background-color: #fff;
+}
+
+.facebook {
+    background-color: #1877f2;
+    color: #fff;
+}
+
+.or-line {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.or-line hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 0 10px;
+}
+
+.or-line span {
+    font-size: 14px;
+    color: #888;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.checkbox-remember {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.checkbox-remember label {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-remember .forgot {
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.create-account {
+    margin-top: 20px;
+}
+
+.create-account a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Right Side */
+/* Right Side */
+.login-right {
+    background: linear-gradient(135deg, rgba(30, 58, 138, 0.7) 30%, rgba(59, 130, 246, 0.7) 90%), url('https://www.projectmanager.com/wp-content/uploads/2019/05/190509_Blog_Feature_Network_Diagrams.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column; /* Added this */
+    justify-content: flex-end; /* Align items to the bottom */
+    position: relative;
+    padding: 20px;
+}
+
+/* Illustration Text */
+/* Illustration Text */
+/* Illustration Text */
+.illustration {
+    text-align: center;
+    color: #fff; /* White text color */
+    animation: fadeIn 1s ease-in-out;
+    margin-top: auto; /* Pushes it to the bottom */
+    padding: 20px; /* Add padding to the top and bottom */
+}
+
+.illustration-text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #fff; /* Ensure text color is white */
+    padding: 0 15px; /* Add horizontal padding */
+}
+
+
+
+.lawyers-img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

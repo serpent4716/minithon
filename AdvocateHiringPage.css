@@ -1,0 +1,166 @@
+.advocate-hiring-page {
+    background-color: #f3f4f6;
+    min-height: 100vh;
+  }
+  
+  .header {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-list {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+  }
+  
+  .btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-weight: bold;
+  }
+  
+  .btn-secondary {
+    background-color: white;
+    color: #1e3a8a;
+  }
+  
+  .btn-primary {
+    background-color: #fbbf24;
+    color: #1e3a8a;
+  }
+  
+  .main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .page-title {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .search-panel {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .search-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  
+  .search-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+  }
+  
+  .search-input input,
+  .search-input select {
+    width: 100%;
+    margin-left: 0.5rem;
+    border: none;
+    outline: none;
+  }
+  
+  .salary-range {
+    text-align: right;
+    margin-top: 0.5rem;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .sidebar {
+    width: 25%;
+  }
+  
+  .filter-panel {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+  }
+  
+  .filter-title {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .filter-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .main-results {
+    width: 75%;
+  }
+  
+  .results-panel {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+  }
+  
+  .results-title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .advocate-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .advocate-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+  
+  .advocate-card h4 {
+    font-weight: bold;
+  }
+  
+  .advocate-card .rate {
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+  .btn-contact {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    margin-top: 0.5rem;
+  }

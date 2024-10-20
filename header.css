@@ -1,0 +1,56 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    position: relative; /* Add position: relative */
+  }
+  
+  .logo {
+    margin-left: 20px;
+    margin-top: 20px;
+    
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    padding-left: 400px;
+    margin-top: -10px;
+    font-weight: 700;
+    position: absolute;
+    left: -80px;
+  }
+
+  .nav-list a:hover{
+    color: #e5b800;
+  }
+  
+  .nav-list a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .signin{
+    padding-left: 55px;
+  }
+  
+  .get-started-button {
+    margin-right: 10px; /* Adjust margin as needed */
+    background-color: #ffd700;
+    color: #000000;
+    padding: 10px 20px;
+    margin-right: -450px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .get-started-button:hover {
+    background-color: rgb(60, 138, 255);
+    color: #ffffff;
+    
+    border: 2px solid #ffffff;
+  }
